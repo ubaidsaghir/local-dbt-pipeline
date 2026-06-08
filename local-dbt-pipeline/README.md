@@ -170,6 +170,6 @@ The Local dbt Pipeline Project demonstrates how to build a structured, automated
 ---
 
 ## 🌐 Author
-[![GitHub](https://img.shields.io/badge/GitHub-rimsha7-181717?logo=github&logoColor=white)](https://github.com/rimsha7)
+[![GitHub](https://img.shields.io/badge/GitHub-ubaidsaghir-181717?logo=github&logoColor=white)](https://github.com/ubaidsaghir)
 
 ---
