@@ -1,0 +1,38 @@
+version: 2
+
+models:
+  - name: mart_customer_orders
+    description: "Analytics mart containing completed customer orders with calculated total amount."
+    columns:
+      - name: order_id
+        description: "Unique order identifier."
+        tests:
+          - unique
+          - not_null
+
+      - name: customer_id
+        description: "Customer identifier."
+        tests:
+          - not_null
+
+      - name: customer_name
+        description: "Name of the customer."
+        tests:
+          - not_null
+
+      - name: product_category
+        description: "Product category purchased by the customer."
+        tests:
+          - not_null
+
+      - name: total_amount
+        description: "Total order amount calculated as quantity multiplied by unit price."
+        tests:
+          - not_null
+
+      - name: status
+        description: "Order status. This mart only contains Completed orders."
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Completed']
